@@ -14,13 +14,38 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	The staging area houses all the changes; so, those affected by the first logical change
+	can be added to the staging area. Then, these can be committing without
+	the others being committed as well.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	If I wanted to make an easier level of a game like in this instance, or to otherwise keep 
+	track of a different set of files for testing purposes, branching is useful. It can also help 
+	for changing a bug or feature creation. Branches allows for tracking code that is not part of 
+	the master, so code ideas can deviate from the main. 
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams are useful for seeing what commits are related to what branches; that is, what
+	changes are in common with branches, and where changes deviate. They are also useful
+	for tracking the various branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	By merging two branches together, code from both branches are used together with both
+	branch's functionality. By representing this is a diagram, it can be seen that the commits
+	from one branch become part of the other branch, and are now in the overall history log.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging can save time by putting commits together. The user does not need
+	to do it manually. The cons are that sometime merges cannot be done properly because of
+	original changes and the changes between the merged entities. The pros of doing it manually
+	is that the user can see exactly what the final code will be when features and code are
+	connected together, and the user can see conflicts as they go along, rather than doing it when
+	merging fails for the automatic version. The cons are obviously ineffiency and the fact that 
+	it is time-consuming to do merging manually. 
