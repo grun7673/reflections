@@ -4,3 +4,45 @@ When would you want to create a remote repository rather than keeping all your w
   and be able to see it elsewhere. It also allows for access from different machines, as the 
   work files are not only stored locally. Additionally, a remote repository can serve as
   backup for files.
+
+Why might you want to always pull changes manually rather than having Git automatically stay 
+up-to-date with your remote repository?
+
+	Manual changes allow for changes to be anticipated while working. This may be useful if there 
+	is a bug that needs to be fixed that you do not want pulled yet.
+	
+Describe the differences between forks, clones, and branches. When would you use one instead 
+of another?
+
+	Branches allow for new changes to be added in the same reposity. An entire repository can
+	be added to a new location with forking and cloning, though forking was created to only
+	be used on GitHub. Any Git repository can be cloned to another place, while a GitHub repository 
+	can only be forked to another GitHub location. Branching is useful for adding new changes to
+	a repository when wanting to keep a previous version as reference. Cloning is useful for working
+	on a repository locally instead of the GitHub website. Forking is useful for making changes
+	to a repository publicly when you can't modify the original. 
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	The last known state being copied locally is useful when going without internet
+	access; the local copy can be updated beforehand, even if you are not at the
+	point of merging into the branches yet. The merge can also be done without internet.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would 
+be harder?
+
+	Without a version control system for code, a shared folder could be used instead. This
+	would be difficult, however, when it came to collaborating and combining changes to code
+	files. With some shared folders, like Google Docs, it may be difficult to determine 
+	what changes were made, and who overwrote what part of the code. The easier aspect
+	to not using Git or GitHub is that other shared folder options are typically easier
+	to use; however, they are not easier for combining code with more than one developer.
+
+When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+
+	Seperate branches may be useful when working with large groups of people, since they will
+	help with keeping track of reviewed and approved changes. They are also useful when trying
+	out new features for code, or for testing purposes when you don't want to affect the main 
+	master. Making changes directly in the master is useful when the project is smaller or
+	there are less people needed to approve changes. 
