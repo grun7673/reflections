@@ -1,0 +1,6 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+  Remote repositories are useful when collaborating for a project with others, or to share code
+  and be able to see it elsewhere. It also allows for access from different machines, as the 
+  work files are not only stored locally. Additionally, a remote repository can serve as
+  backup for files.
